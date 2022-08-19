@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Basic</title>
+        <style>
+            body {
+                border: 2px solid green;    
+                
+                height: 500px;
+            }
+            .flex-container
+            {
+                border: 2px dashed purple;
+                width: 500px; 
+                flex-wrap: wrap;
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+                justify-content: center;
+            }
+            .flex-container > div {
+                background-color: pink;
+                font-size: 30px;
+                color: blue;
+                text-align: center;
+                width: 100px;
+                margin: 20px;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>The flex Property</h1>
+
+            <p>
+                Implement the CSS file ans use the flex display the four seats in two rows as the given UI.
+            </p>
+            <div class="flex-container">
+                <div> Seat 1</div>
+                <div> Seat 1</div>
+                <div> Seat 1</div>
+                <div> Seat 1</div>
+            </div>
+
+        </main>
+    </body>
+</html>
